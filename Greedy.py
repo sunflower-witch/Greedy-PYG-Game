@@ -11,7 +11,7 @@ def score_increase(a, total):
         roll = int(random.randint(1, 6))
         if roll == 1:
             print(f"You rolled 1. Your total score is {total}.")
-            print(f"Okay! Your new total is: {total + current}. Next player!")
+            print(f"Okay! Your new total is: {total}. Next player!")
             print("------------------------------------------------------------------------------------")
             print("------------------------------------------------------------------------------------")
             time.sleep(1)
